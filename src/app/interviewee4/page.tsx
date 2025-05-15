@@ -7,7 +7,7 @@ export default function Interviewee4() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-orange-50 to-white dark:from-gray-900 dark:to-gray-800">
       <Navbar />
-      
+
       {/* Hero Section with AI Video */}
       <section className="pt-24 pb-16 px-4">
         <motion.div
@@ -42,12 +42,12 @@ export default function Interviewee4() {
             <div className="space-y-4">
               <h2 className="text-3xl font-bold text-orange-600">Global Impact</h2>
               <p className="text-gray-600 dark:text-gray-300">
-                Sarah's work has taken her around the world, solving complex engineering challenges...
+                Sarah&apos;s work has taken her around the world, solving complex engineering challenges...
               </p>
             </div>
             <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg">
               <p className="text-gray-600 dark:text-gray-300">
-                "Engineering in the 90s was about connecting the world. We were building bridges, both literal and metaphorical..."
+                &ldquo;Engineering in the 90s was about connecting the world. We were building bridges, both literal and metaphorical...&rdquo;
               </p>
             </div>
           </motion.div>
@@ -62,13 +62,13 @@ export default function Interviewee4() {
           >
             <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg order-2 md:order-1">
               <p className="text-gray-600 dark:text-gray-300">
-                "The most rewarding projects were those that brought communities together and improved lives..."
+                &ldquo;The most rewarding projects were those that brought communities together and improved lives...&rdquo;
               </p>
             </div>
             <div className="space-y-4 order-1 md:order-2">
               <h2 className="text-3xl font-bold text-orange-600">Community Building</h2>
               <p className="text-gray-600 dark:text-gray-300">
-                From infrastructure to education, Sarah's career has focused on building stronger communities...
+                From infrastructure to education, Sarah&apos;s career has focused on building stronger communities...
               </p>
             </div>
           </motion.div>
@@ -86,7 +86,7 @@ export default function Interviewee4() {
         >
           <h2 className="text-3xl font-bold mb-6">Listen to the Full Story</h2>
           <p className="text-gray-600 dark:text-gray-300 mb-8">
-            Join us for an in-depth conversation about Sarah's global engineering journey.
+            Join us for an in-depth conversation about Sarah&apos;s global engineering journey.
           </p>
           <a
             href="https://youtube.com/watch?v=example4"
@@ -105,4 +105,4 @@ export default function Interviewee4() {
       </footer>
     </main>
   );
-} 
+}

@@ -42,12 +42,12 @@ export default function Interviewee2() {
             <div className="space-y-4">
               <h2 className="text-3xl font-bold text-purple-600">Breaking Barriers</h2>
               <p className="text-gray-600 dark:text-gray-300">
-                As one of the few women in engineering during the 90s, Jane's journey was both challenging and inspiring...
+                As one of the few women in engineering during the 90s, Jane&apos;s journey was both challenging and inspiring...
               </p>
             </div>
             <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg">
               <p className="text-gray-600 dark:text-gray-300">
-                "Being a woman in engineering back then meant constantly proving yourself, but it also meant being part of something revolutionary..."
+                &ldquo;Being a woman in engineering back then meant constantly proving yourself, but it also meant being part of something revolutionary...&rdquo;
               </p>
             </div>
           </motion.div>
@@ -62,13 +62,13 @@ export default function Interviewee2() {
           >
             <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg order-2 md:order-1">
               <p className="text-gray-600 dark:text-gray-300">
-                "The most rewarding part of my career has been mentoring young engineers and seeing them succeed..."
+                &ldquo;The most rewarding part of my career has been mentoring young engineers and seeing them succeed...&rdquo;
               </p>
             </div>
             <div className="space-y-4 order-1 md:order-2">
-              <h2 className="text-3xl font-bold text-purple-600">Legacy & Impact</h2>
+              <h2 className="text-3xl font-bold text-purple-600">Legacy &amp; Impact</h2>
               <p className="text-gray-600 dark:text-gray-300">
-                Jane's contributions to the field have paved the way for future generations of engineers...
+                Jane&apos;s contributions to the field have paved the way for future generations of engineers...
               </p>
             </div>
           </motion.div>
@@ -86,7 +86,7 @@ export default function Interviewee2() {
         >
           <h2 className="text-3xl font-bold mb-6">Listen to the Full Story</h2>
           <p className="text-gray-600 dark:text-gray-300 mb-8">
-            Join us for an in-depth conversation about Jane's pioneering journey in engineering.
+            Join us for an in-depth conversation about Jane&apos;s pioneering journey in engineering.
           </p>
           <a
             href="https://youtube.com/watch?v=example2"
@@ -105,4 +105,4 @@ export default function Interviewee2() {
       </footer>
     </main>
   );
-} 
+}

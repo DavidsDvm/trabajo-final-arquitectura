@@ -7,7 +7,7 @@ export default function Interviewee1() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800">
       <Navbar />
-      
+
       {/* Hero Section with AI Video */}
       <section className="pt-24 pb-16 px-4">
         <motion.div
@@ -47,7 +47,7 @@ export default function Interviewee1() {
             </div>
             <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg">
               <p className="text-gray-600 dark:text-gray-300">
-                "The university was a completely different place back then. We were among the first to use computers in our studies..."
+                &ldquo;The university was a completely different place back then. We were among the first to use computers in our studies...&rdquo;
               </p>
             </div>
           </motion.div>
@@ -62,7 +62,7 @@ export default function Interviewee1() {
           >
             <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg order-2 md:order-1">
               <p className="text-gray-600 dark:text-gray-300">
-                "After graduation, I joined a startup that was working on revolutionary technology..."
+                &ldquo;After graduation, I joined a startup that was working on revolutionary technology...&rdquo;
               </p>
             </div>
             <div className="space-y-4 order-1 md:order-2">
@@ -86,7 +86,7 @@ export default function Interviewee1() {
         >
           <h2 className="text-3xl font-bold mb-6">Listen to the Full Story</h2>
           <p className="text-gray-600 dark:text-gray-300 mb-8">
-            Join us for an in-depth conversation about John's journey through engineering and life.
+            Join us for an in-depth conversation about John&apos;s journey through engineering and life.
           </p>
           <a
             href="https://youtube.com/watch?v=example"
@@ -105,4 +105,4 @@ export default function Interviewee1() {
       </footer>
     </main>
   );
-} 
+}

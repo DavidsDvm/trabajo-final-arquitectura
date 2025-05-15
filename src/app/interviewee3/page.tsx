@@ -7,7 +7,7 @@ export default function Interviewee3() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-green-50 to-white dark:from-gray-900 dark:to-gray-800">
       <Navbar />
-      
+
       {/* Hero Section with AI Video */}
       <section className="pt-24 pb-16 px-4">
         <motion.div
@@ -47,7 +47,7 @@ export default function Interviewee3() {
             </div>
             <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg">
               <p className="text-gray-600 dark:text-gray-300">
-                "We were living in an era where every day brought new possibilities. The internet was changing everything..."
+                &ldquo;We were living in an era where every day brought new possibilities. The internet was changing everything...&rdquo;
               </p>
             </div>
           </motion.div>
@@ -62,13 +62,13 @@ export default function Interviewee3() {
           >
             <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg order-2 md:order-1">
               <p className="text-gray-600 dark:text-gray-300">
-                "The most exciting part was seeing how our work directly impacted people's lives. We were building the future..."
+                &ldquo;The most exciting part was seeing how our work directly impacted people&apos;s lives. We were building the future...&rdquo;
               </p>
             </div>
             <div className="space-y-4 order-1 md:order-2">
               <h2 className="text-3xl font-bold text-green-600">Digital Transformation</h2>
               <p className="text-gray-600 dark:text-gray-300">
-                From traditional engineering to digital solutions, Mike's career reflects the evolution of the field...
+                From traditional engineering to digital solutions, Mike&apos;s career reflects the evolution of the field...
               </p>
             </div>
           </motion.div>
@@ -86,7 +86,7 @@ export default function Interviewee3() {
         >
           <h2 className="text-3xl font-bold mb-6">Listen to the Full Story</h2>
           <p className="text-gray-600 dark:text-gray-300 mb-8">
-            Join us for an in-depth conversation about Mike's role in the digital transformation of engineering.
+            Join us for an in-depth conversation about Mike&apos;s role in the digital transformation of engineering.
           </p>
           <a
             href="https://youtube.com/watch?v=example3"
@@ -105,4 +105,4 @@ export default function Interviewee3() {
       </footer>
     </main>
   );
-} 
+}
