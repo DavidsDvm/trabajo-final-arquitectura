@@ -4,10 +4,9 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 const interviewees = [
-  { name: 'John Doe', path: '/interviewee1' },
-  { name: 'Jane Smith', path: '/interviewee2' },
-  { name: 'Mike Johnson', path: '/interviewee3' },
-  { name: 'Sarah Williams', path: '/interviewee4' },
+  { name: 'Luis Bernardo Chicaiza', path: '/interviewee1' },
+  { name: 'Daniel Fernando', path: '/interviewee2' },
+  { name: 'Dalia Trujillo', path: '/interviewee3' },
 ];
 
 export default function Navbar() {
