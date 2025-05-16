@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const spaceGrotesk = Space_Grotesk({ 
+  subsets: ["latin"],
+  variable: '--font-space-grotesk',
+});
 
 export const metadata: Metadata = {
   title: "Engineering Evolution - 90s Stories",
@@ -15,9 +18,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
+    <html lang="en" className="dark">
+      <body className={`${spaceGrotesk.variable} font-sans antialiased`}>
+        <div className="min-h-screen bg-gray-900 text-white">
           {children}
         </div>
       </body>
