@@ -16,14 +16,20 @@ export default function Interviewee2() {
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto text-center"
         >
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-purple-800 bg-clip-text text-transparent">
-            Jane Smith
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-600 to-purple-800 bg-clip-text text-transparent">
+            Daniel Fernando Cortés González
           </h1>
-          <div className="aspect-video bg-gray-200 dark:bg-gray-700 rounded-lg mb-8">
-            {/* AI Video Placeholder */}
-            <div className="w-full h-full flex items-center justify-center text-gray-500">
-              AI Video Coming Soon
-            </div>
+          <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
+            Ingeniero, empresario y apasionado por la inteligencia computacional
+          </p>
+          <div className="aspect-video bg-gray-200 dark:bg-gray-700 rounded-lg mb-8 overflow-hidden">
+            <video
+                src="/videos/daniel.mp4"
+                autoPlay
+                loop
+                playsInline
+                className="w-full h-full object-fit"
+              />
           </div>
         </motion.div>
       </section>
@@ -40,14 +46,14 @@ export default function Interviewee2() {
             className="grid md:grid-cols-2 gap-8 items-center"
           >
             <div className="space-y-4">
-              <h2 className="text-3xl font-bold text-purple-600">Breaking Barriers</h2>
+              <h2 className="text-3xl font-bold text-purple-600">Trayectoria Académica</h2>
               <p className="text-gray-600 dark:text-gray-300">
-                As one of the few women in engineering during the 90s, Jane&apos;s journey was both challenging and inspiring...
+                Con solo 16 años, Daniel ingresó a la Universidad Nacional, demostrando desde temprano su extraordinario potencial. Su paso por la universidad no solo fue académico, sino que también marcó el inicio de su visión empresarial.
               </p>
             </div>
             <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg">
               <p className="text-gray-600 dark:text-gray-300">
-                &ldquo;Being a woman in engineering back then meant constantly proving yourself, but it also meant being part of something revolutionary...&rdquo;
+                &ldquo;La universidad fue el lugar donde descubrí que podía combinar mi pasión por la tecnología con el espíritu emprendedor. Los grupos de estudio que impulsé fueron el semillero de grandes ideas.&rdquo;
               </p>
             </div>
           </motion.div>
@@ -62,13 +68,34 @@ export default function Interviewee2() {
           >
             <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg order-2 md:order-1">
               <p className="text-gray-600 dark:text-gray-300">
-                &ldquo;The most rewarding part of my career has been mentoring young engineers and seeing them succeed...&rdquo;
+                &ldquo;Mi tesis sobre lógica difusa y redes neuronales no fue solo un trabajo académico, fue el punto de partida para entender cómo la tecnología podía transformar la realidad.&rdquo;
               </p>
             </div>
             <div className="space-y-4 order-1 md:order-2">
-              <h2 className="text-3xl font-bold text-purple-600">Legacy &amp; Impact</h2>
+              <h2 className="text-3xl font-bold text-purple-600">Innovación &amp; Desarrollo</h2>
               <p className="text-gray-600 dark:text-gray-300">
-                Jane&apos;s contributions to the field have paved the way for future generations of engineers...
+                Su trabajo en inteligencia computacional, combinando lógica difusa y redes neuronales, sentó las bases para soluciones tecnológicas innovadoras que transformarían su visión en una empresa exitosa.
+              </p>
+            </div>
+          </motion.div>
+
+          {/* Story Section 3 */}
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="grid md:grid-cols-2 gap-8 items-center"
+          >
+            <div className="space-y-4">
+              <h2 className="text-3xl font-bold text-purple-600">Legado &amp; Visión</h2>
+              <p className="text-gray-600 dark:text-gray-300">
+                La historia de Daniel es un testimonio inspirador de cómo la disciplina, la pasión y una visión clara pueden construir un futuro prometedor en el mundo de la tecnología y la innovación.
+              </p>
+            </div>
+            <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg">
+              <p className="text-gray-600 dark:text-gray-300">
+                &ldquo;El éxito no es solo tener buenas ideas, es tener la disciplina para ejecutarlas y la visión para ver más allá de lo evidente.&rdquo;
               </p>
             </div>
           </motion.div>
@@ -84,9 +111,9 @@ export default function Interviewee2() {
           viewport={{ once: true }}
           className="max-w-4xl mx-auto text-center"
         >
-          <h2 className="text-3xl font-bold mb-6">Listen to the Full Story</h2>
+          <h2 className="text-3xl font-bold mb-6">Escucha la Historia Completa</h2>
           <p className="text-gray-600 dark:text-gray-300 mb-8">
-            Join us for an in-depth conversation about Jane&apos;s pioneering journey in engineering.
+            Únete a nosotros para una conversación profunda sobre el viaje de Daniel a través de la ingeniería y la inteligencia computacional.
           </p>
           <a
             href="https://youtube.com/watch?v=example2"
@@ -94,7 +121,7 @@ export default function Interviewee2() {
             rel="noopener noreferrer"
             className="inline-block px-8 py-3 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition-colors"
           >
-            Watch on YouTube
+            Ver en YouTube
           </a>
         </motion.div>
       </section>

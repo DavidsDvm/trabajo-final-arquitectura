@@ -32,7 +32,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8"
           >
-            Stories from the 90s Generation
+            Historias de la generacion de los 90s
           </motion.p>
           
           <motion.div
@@ -45,13 +45,13 @@ export default function Home() {
               href="/interviewee1"
               className="px-8 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors"
             >
-              Explore Stories
+              Explorar historias
             </a>
             <a
               href="#about"
               className="px-8 py-3 border border-gray-300 dark:border-gray-600 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
             >
-              Learn More
+              Conocer mas
             </a>
           </motion.div>
         </div>
