@@ -25,7 +25,7 @@ export default function Interviewee3() {
           </p>
           <div className="aspect-video bg-gray-800 rounded-2xl mb-12 overflow-hidden border border-purple-500/20 shadow-2xl shadow-purple-500/10">
             <video
-              src="/videos/dalia.mp4"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/videos/dalia.mp4`}
               autoPlay
               loop
               playsInline
