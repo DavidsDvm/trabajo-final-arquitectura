@@ -139,7 +139,7 @@ export default function Interviewee3() {
 
       {/* Footer */}
       <footer className="py-12 px-4 text-center text-gray-400 border-t border-purple-500/20">
-        <p>Created with ❤️ by Engineering Evolution Team</p>
+        <p>Created with ❤️ by Engineering Evolution Team - Utadeo</p>
       </footer>
     </main>
   );

@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Navbar from '@/components/Navbar';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -49,12 +50,12 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="flex flex-col sm:flex-row gap-6 justify-center"
           >
-            <a
+            <Link
               href="/interviewee1"
               className="group px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full hover:from-purple-500 hover:to-blue-500 transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-purple-500/25"
             >
               <span className="text-lg font-medium">Explorar historias</span>
-            </a>
+            </Link>
             <a
               href="#about"
               className="group px-8 py-4 border-2 border-purple-500/50 rounded-full hover:bg-purple-500/10 transition-all duration-300 transform hover:scale-105"
@@ -70,9 +71,12 @@ export default function Home() {
           transition={{ duration: 1, delay: 1 }}
           className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
         >
-          <div className="animate-bounce">
+          <Link 
+            href="/interviewee1"
+            className="animate-bounce cursor-pointer block"
+          >
             <svg
-              className="w-8 h-8 text-purple-400"
+              className="w-8 h-8 text-purple-400 hover:text-purple-300 transition-colors"
               fill="none"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -82,7 +86,7 @@ export default function Home() {
             >
               <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
             </svg>
-          </div>
+          </Link>
         </motion.div>
       </div>
     </main>
